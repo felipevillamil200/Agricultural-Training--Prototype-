@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Capacitación Agrícola</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Barra de navegación -->
+  <header class="header">
+    <nav class="navbar">
+      <div class="logo">
+        <h1>Capacitación Agrícola</h1>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#modules-section">Módulos</a></li>
+        <li><a href="#about-section">Acerca de</a></li>
+        <li><a href="#contact-section">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Sección Principal -->
+  <section id="main-content" class="main-content">
+    <div class="intro">
+      <h2>Bienvenido a la Capacitación Agrícola</h2>
+      <p>Aprende las mejores prácticas en la agricultura de manera interactiva y accesible. ¡Comienza ahora!</p>
+      <button class="btn" onclick="obtenerModulos()">Ver Módulos</button>
+    </div>
+
+    <div id="loading" class="loading">Cargando módulos...</div>
+    
+    <!-- Lista de módulos -->
+    <section id="modules-section">
+      <h2>Explora los Módulos</h2>
+      <ul id="modules-list" class="modules-list"></ul>
+    </section>
+  </section>
+
+  <!-- Sección Acerca de -->
+  <section id="about-section" class="about-section">
+    <h2>Acerca de la Capacitación</h2>
+    <p>Este sistema fue diseñado para capacitar a agricultores de forma eficiente, con contenido práctico y actualizado.</p>
+  </section>
+
+  <!-- Sección de contacto -->
+  <section id="contact-section" class="contact-section">
+    <h2>Contacto</h2>
+    <p>Para más información, contáctanos a <strong>info@agricultura.com</strong></p>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 Capacitación Agrícola. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
